@@ -83,10 +83,65 @@ export const RecommendWrapper = styled.div`
     width:280px;
 `;
 
-export const RecommendItem = styled.div` 
-    width:278px;
+export const RecommendItem_1 = styled.div` 
+    width:280px;
     height:50px;
-    background:url('./components/img/banner_2.png');
-    backhground-size:contain;
+    background:url("../../img/banner_1.png");
+    background-size:contain;
+`;
+export const RecommendItem_2 = styled.div` 
+    width:280px;
+    height:50px;
+    background:url("../../img/banner_2.png");
+    background-size:contain;
+`;
+export const RecommendItem_3 = styled.div` 
+    width:280px;
+    height:50px;
+    background:url("../../img/banner_3.png");
+    background-size:contain;
+`;
+export const RecommendItem_4 = styled.div` 
+    width:280px;
+    height:50px;
+    background:url("../../img/banner_4.png");
+    background-size:contain;
+`;
+export const Download_App = styled.div` 
+    margin-bottom:20px;
+    padding: 10px 22px;
+    width:200px;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    background-color: #fff;
+    .pic{
+        width: 60px;
+        height: 60px;
+        opacity: .85;
+    }
 `;
 
+export const LoadMore = styled.div` 
+    width:100%;
+    height:40px;
+    line-height:40px;
+    margin:30px 0;
+    background:#a5a5a5;
+    text-align:center;
+    border-radius:20px;
+    color:#fff;
+    cursor:pointer;
+`;
+export const BackTop = styled.div` 
+    position:fixed;
+    right:100px;
+    bottom:100px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border:1px solid #ccc;
+    background:#fff;
+    font-size:14px;
+    cursor:pointer;
+`;
