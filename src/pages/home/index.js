@@ -23,7 +23,7 @@ class Home extends PureComponent {
                     <Recommend />
                     <Writer />
                 </HomeRight>
-                {this.props.showScroll ? <BackTop onClick={this.handleScrollTop}>到顶部↑</BackTop> : null}
+                {this.props.showScroll ? <BackTop onClick={this.handleScrollTop}>到顶↑</BackTop> : null}
             </HomeWrapper>
         )
     }
